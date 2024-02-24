@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto 20%;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+header{
+    grid-column: 1/span2;
+    grid-row: 1;
+    text-align: center;
+    font-family: Arial;
+    font-size: 80px;
+    color: white;
+    background-color: #301616;
+}
+span#news{
+    font-size: 105px;
+}
+
+nav{
+    font-family: Georgia;
+    grid-column: 1/span2;
+    grid-row: 2;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: 23px;
+    color: #f7d5d5;
+    word-spacing: 20px;
+    background-color: #120b0b;
+}
+a{
+    text-decoration-line: none;
+}
+a.link{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+form{
+    display: inline;
+}
+input[type=text]{
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #f7d5d5;
+    background: none;
+    color: white;
+}
+
+
+section#title{
+    font-family: Georgia;
+    grid-column: 1/span2;
+    grid-row: 3;
+    padding: 20px 50px;
+}
+h1{
+    font-size: 60px;
+}
+.sub{
+    color: rgb(88, 85, 85);
+}
+img#wholeScreen{
+    width: 100%;
+}
+
+section#new{
+    font-family: Georgia;
+    grid-column: 1;
+    grid-row: 4;
+    padding-bottom: 40px;
+}
+article p{
+    padding: 25px 80px 0px;
+    text-align: justify;
+    font-size: 23px;
+}
+#espan{
+    font-size: 20px;
+}
+article#video{
+    position: relative;
+    left: 25%;
+}
+img#collab{
+    width: 500px;
+    position: relative;
+    left: 30%;
+}
+
+aside{
+    font-family: Georgia;
+    position: relative;
+    top: 300px;
+    height: fit-content;
+    grid-column: 2;
+    grid-row: 4;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    border: 1px #000 solid;
+}
+aside h4{
+    padding-bottom: 5px;
+}
+aside div img{
+    width: 100%;
+}
+hr{
+    margin: 5px;
+}
+
+footer{
+    font-family: Helvetica;
+    grid-column: 1/span2;
+    grid-row: 5;
+    font-size: 20px;
+    padding: 25px 100px;
+    padding-bottom: 40px;
+    background-color: #120b0b;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+footer ul{
+    list-style: none;
+}
+
+p#sorry{
+    margin: 20px;
+    font-family: Helvetica;
+    font-size: 50px;
+}
